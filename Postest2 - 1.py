@@ -10,28 +10,28 @@ def menu():
 
 def USD():
     HargaUSD = 14131
-    rupiah = float(input("Masukkan Uang Rupiah anda = "))
+    rupiah = int(input("Masukkan Uang Rupiah anda = "))
     Hasil = rupiah / HargaUSD
     USD = round(Hasil, 2)
     print("Rp.",rupiah, "==>", USD, 'USD')
 
 def SGD():
     HargaSGD = 10507
-    rupiah = float(input("Masukkan Uang Rupiah anda = "))
+    rupiah = int(input("Masukkan Uang Rupiah anda = "))
     Hasil = rupiah / HargaSGD
     SGD = round(Hasil, 2)
     print("Rp.",rupiah, "==>", SGD, 'SGD')
 
 def EUR():
     HargaEUR = 16428
-    rupiah = float(input("Masukkan Uang Rupiah anda = "))
+    rupiah = int(input("Masukkan Uang Rupiah anda = "))
     Hasil = rupiah / HargaEUR
     EUR = round(Hasil, 2)
     print("Rp.",rupiah, "==>", EUR, 'EUR')
 
 def JPY():
     HargaJPY = 123
-    rupiah = float(input("Masukkan Uang Rupiah anda = "))
+    rupiah = int(input("Masukkan Uang Rupiah anda = "))
     Hasil = rupiah / HargaJPY
     JPY = round(Hasil, 2)
     print("Rp.",rupiah, "==>", JPY, 'JPY')

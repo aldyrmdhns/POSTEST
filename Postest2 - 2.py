@@ -22,9 +22,12 @@ def profil():
         'Nama' : 'Aldy Ramadhan Syahputra',
         'NIM' : 2109106079,
         'Kelas' : 'B',
+        'Tanggal Lahir' : '28 - November - 2002',
         'Angkatan' : 2021,
         'Jenis Kelamin' : 'Laki-Laki',
-        'status' : 'single'
+        'status' : 'single',
+        'berat' : 55.0,
+        'tinggi' : 161.5
     }
     for key, value in bio.items():
         print(key, ':', value)
@@ -58,7 +61,7 @@ while i>=1:
         else:
             print('error')
             break      
-    elif hasil == False :
+    else :
         i-=1
         print("gagal login, sisa percobaan login adalah :", i )
 
